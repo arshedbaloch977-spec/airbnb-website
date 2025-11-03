@@ -1,0 +1,118 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #fff;
+}
+header {
+  position: sticky;
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 40px;
+  border-bottom: 1px solid #ddd;
+  
+}
+
+.logo img {
+  height: 35px;
+   
+}
+
+.nav-links a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  background: #f7f7f7;
+  border-radius: 40px;
+  padding: 5px 10px;
+   
+}
+
+.search-bar input {
+  border: none;
+  outline: none;
+  background: transparent;
+  margin: 0 8px;
+  padding: 8px;
+  
+}
+
+.search-bar button {
+  background: #ff385c;
+  border: none;
+  border-radius: 50%;
+  color: #fff;
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+  
+}
+
+.host-section {
+  display: flex;
+  align-items: center;
+   
+}
+
+.host-section a {
+  margin-right: 15px;
+  color: #333;
+  text-decoration: none;
+  
+}
+
+.cards-section {
+  padding: 30px 50px;
+}
+
+.cards-section h2 {
+  margin-bottom: 20px;
+  font-size: 1.5em;
+}
+
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+  background: #fff;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card img {
+  width: 120%;
+  height: 160px;
+  object-fit: cover;
+}
+
+.card-info {
+  padding: 10px;
+}
+
+.card-info h3 {
+  margin: 5px 0;
+  font-size: 1em;
+}
+
+.card-info p {
+  color: #666;
+  font-size: 0.9em;
+}
